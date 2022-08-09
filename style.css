@@ -6,6 +6,7 @@
     color: #F9FAF8;
     padding: 16px 168px;
     margin-bottom: 82px;
+    flex: auto;
 }
 
 ul {
@@ -41,17 +42,19 @@ body {
     gap: 8px;
     width: 500px;
     flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .main-text {
-    font-size: 48px;
+    font-size: 64px;
     font-weight: bolder;
     color: #F9FAF8;
-    width: 300px;
+    width: 500px;
 }
 
 .secondary-text {
-    font-size: 18px;
+    font-size: 22px;
     color: #E5E7EB;
     width: 400px;
 }
@@ -62,16 +65,20 @@ button {
     border-radius: 15px;
     background-color: #3882F6;
     color: #F9FAF8;
+    margin-top: 16px;
 }
 
 .container {
     display: flex;
     gap: 64px;
+    justify-content: space-between;
+    padding-right: 168px;
 }
 
 img {
     height: auto;
     width: 600px;
+    border-radius: 15px;
 }
 
 .information {
@@ -82,12 +89,12 @@ img {
 
 .pictures {
     display: flex;
-    gap: 32px;
+    gap: 48px;
     justify-content: center;
 }
 
 .text {
-    max-width: 150px;
+    max-width: 300px;
 }
 
 .quote {
@@ -100,6 +107,7 @@ img {
     color: #1F2937;
     font-size: 36px;
     font-style: italic;
+    flex: auto;
 }
 
 strong {
@@ -136,4 +144,10 @@ strong {
     color: #E5E7EB;
     padding: 32px;
     margin-top: auto;
+}
+
+.text img {
+    width: 300px;
+    height: auto;
+    border: 4px solid #3882F6;
 }
