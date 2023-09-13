@@ -1,5 +1,5 @@
 # odin-landing-page
-https://maahesi.github.io/odin-landing-page/
+https://ionutng.github.io/odin-landing-page/
 
 This is my first project using CSS Flexbox.
 It's a webpage about dogs.
